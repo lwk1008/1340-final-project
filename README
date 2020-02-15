@@ -1,0 +1,18 @@
+Task 2
+Q1 
+(a) is unbalanced, for node 8, height of left subtree is 3, right subtree is 1, difference is 2
+(c) is unbalanced, for node 9, height of left subtree is 0, right subtree is 2, difference is 2
+when the differnce of height is not in the range of [-1,1],the tree is unbalanced
+
+Q2
+Yes it is not balanced, for node 10, height of left subtree is 0, right subtree is 2, differnce is 2
+when the differnce of height is not in the range of [-1,1],the tree is unbalanced
+
+Q3
+To perform the task, i will put the methods to perform for each case of insert and delete for all 4 left left, left right, right right, right left case
+all method will first check the balance factor then if the balance factor is not in the range [-1,1]
+it will check the type of method need to be performed.
+For the case now, 
+a double rotation need to be performed, first a right rotation will perform on node 14, to exchange with node 13,
+then a left rotation will be performed on node 13 with node 10
+a right-left rotation will be performed
